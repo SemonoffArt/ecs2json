@@ -1,0 +1,17 @@
+[project]
+name = "ecs2json"
+version = "0.1.0"
+description = "ECS tags to JSON converter"
+requires-python = ">=3.13"
+dependencies = [
+    "alive-progress>=3.3.0",
+    "colorama>=0.4.6",
+    "pyodbc>=5.3.0",
+    "pyyaml>=6.0.3",
+]
+
+[tool.uv]
+dev-dependencies = []
+
+[project.scripts]
+ecs2json = "ecs2json:main"
