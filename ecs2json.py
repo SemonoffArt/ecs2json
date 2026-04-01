@@ -314,11 +314,11 @@ class TagsHelper(object):
                         },
                     },
                     "PLC_INP": f"%DB{tag[10]}.DBD{tag[11]}",
-                    "SignalHigh": tag[23],
-                    "SignalLow": tag[24],
+                    "Constant1": tag[22],
+                    "SignalLow": tag[23],
+                    "SignalHigh": tag[24],
                     "AlarmLow": tag[25],
                     "AlarmHigh": tag[26],
-                    "Constant1": tag[22],
                     "EngUnitId": get_eng_unit(tag[20])
 
 
