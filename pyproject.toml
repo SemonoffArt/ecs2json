@@ -15,3 +15,5 @@ dev-dependencies = []
 
 [project.scripts]
 ecs2json = "ecs2json:main"
+
+[project.gui-scripts]
