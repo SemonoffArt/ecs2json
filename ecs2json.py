@@ -290,8 +290,8 @@ class TagsHelper(object):
                     "Id": tag[0],
                     "Tag": tag[1],
                     "Groups": tag[7],
-                    "DescEng": tag[2],
-                    "DescRus": str(tag[3]),
+                    "DescEng": tag[2].strip() if tag[2] else "",
+                    "DescRus": str(tag[3]).strip() if tag[3] else "",
                     "Algorithms": {
                         "ConvAlg": f"{tag[4]} {get_conv_alg_name(tag[4])}",
                         "CalcAlg": tag[5],
